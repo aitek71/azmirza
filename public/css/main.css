@@ -1,0 +1,36 @@
+._404-container{ width: 500px !important; }
+.mobile{ display: none !important; }
+.desktop{ display: block !important; }
+.image-responsive { width: 100% !important; }
+.margin-flex { margin: 0 2.5px; }
+.font-responsive-h1 { font-size: 5vw !important; }
+.font-responsive-h2 { font-size: 4vw !important; }
+.font-responsive-h3 { font-size: 3vw !important; }
+.font-responsive-h4 { font-size: 2vw !important; }
+.font-responsive-p { font-size: 1.5vw !important; }
+.font-responsive-p-thumbnail { font-size: 1.2vw !important; }
+.font-responsive-p-thumbnail-description { font-size: 1vw !important; }
+
+.layout-2 { width: 20% !important; float: left;}
+.layout-8 { width: 80% !important; float: left;}
+
+@media screen and (max-width: 640px){
+	._404-container{ width: 100% !important; }
+	.mobile{ display: block !important; }
+	.desktop{ display: none !important; }	
+	.font-responsive-h1 { font-size: 5vw !important; }
+	.font-responsive-h2 { font-size: 4vw !important; }
+	.font-responsive-h3 { font-size: 3.7vw !important; }
+	.font-responsive-h4 { font-size: 3.4vw !important; }
+	.font-responsive-p { font-size: 3vw !important; }
+
+	.font-responsive-p-thumbnail { font-size: 4vw !important; }
+	.font-responsive-p-thumbnail-description { font-size: 3.2vw !important; }
+
+	.layout-2 { width: 100% !important; }
+	.layout-8 { width: 100% !important; }
+}
+
+.pointer{
+	cursor: pointer;
+}
